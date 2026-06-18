@@ -16,3 +16,17 @@ let numb5=numb1**3 //2*2*2 power ->2*2*2
 console.log(`numb5 is ${numb5} its type is ${typeof numb5}`)
 let numb6=Math.pow(10,3)
 console.log(`numb6 is ${numb6} its type is ${typeof numb6}`)
+
+//
+let numb7=30
+let numb8=10
+let divNumb=numb7/numb8
+console.log(`divNumb is ${divNumb} its type is ${typeof divNumb}`)
+
+
+//Modulus is  division of 2 number -> remainder
+let numb9=23
+let numb10=12
+let modNu=numb9%numb10
+console.log(`modNu is ${modNu} its type ${typeof modNu}`)
+
