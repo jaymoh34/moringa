@@ -79,7 +79,47 @@ let total_amount_due = 150.50;
     
 -   **snake_case** → `first_name`
 
+## DATA TYPES
+Specifies the kind of data a variable can hold in a programming language.
+In Js we have two types of Major Data-types. ie.
+
+ - Primitive
+ - Object
+
+## Primitive Data Types
+Simple, basic data types that are not objects. They hold a single value.
+​Any data-type that is not a primitive its an Object.
+
+ - Number
+ - String
+ - Boolean
+ - Undefined
+ - Null
  
+ ## Ways to Create a string variable 
+ **Single Quotes**
+ let name1 = 'John';
+ **Double Qoutes**
+ let name2 = "John";
+ **Backticks**
+ let name3 = `My name is John and I am ${age} years old`;
+ **When to use each **
+ **Single/Double qoutes**->regular text
+ **Backticks**->when you need to embed variables or use multiple lines.
+
+## Difference Between `undefined` and `null`
+ 
+ `**undefined**`
+ 
+
+ - Variables exists but has no value assigned.
+ - Example; `let x;` ->x is undefined.
+ - Used for missing or uninitialized values.
+ 
+`null`
+ - Variable has been intentionally set to empty.
+ - Example; `let y=null;`
+ - Used when you want to say 'nothing' on purpose. 
 
  
 
@@ -159,4 +199,41 @@ PascalCase → FirstName
 
 snake_case → first_name
 
-Markdown selection 2279 bytes 358 words 82 lines Ln 83, Col 0HTML 1758 characters 329 words 62 paragraphs
+DATA TYPES
+Specifies the kind of data a variable can hold in a programming language.
+In Js we have two types of Major Data-types. ie.
+
+Primitive
+Object
+Primitive Data Types
+Simple, basic data types that are not objects. They hold a single value.
+​Any data-type that is not a primitive its an Object.
+
+Number
+String
+Boolean
+Undefined
+Null
+Ways to Create a string variable
+Single Quotes
+let name1 = ‘John’;
+Double Qoutes
+let name2 = “John”;
+Backticks
+let name3 = My name is John and I am ${age} years old;
+**When to use each **
+Single/Double qoutes->regular text
+Backticks->when you need to embed variables or use multiple lines.
+
+Difference Between undefined and null
+**undefined**
+
+Variables exists but has no value assigned.
+Example; let x; ->x is undefined.
+Used for missing or uninitialized values.
+null
+
+Variable has been intentionally set to empty.
+Example; let y=null;
+Used when you want to say ‘nothing’ on purpose.
+Markdown selection 3306 bytes 528 words 122 lines Ln 123, Col 0HTML 2523 characters 482 words 94 paragraphs
