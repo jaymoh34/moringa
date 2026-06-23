@@ -37,4 +37,19 @@ console.log(`mercy age is greater than 18
     let simplified=mercy_age>18&&mercy_balance>20000
     console.log(`simplified ${simplified}`)
     console.log(`further simplification is ${mercy_age>18&&mercy_balance>20000}`)
-    
+
+
+    /*
+    Or atleast one statement has to be true for the whole statement to be true
+    */
+ 
+    console.log(`mercy is age is greater than 18
+        or she has more than 20k in her account
+        ${is_greater_than_18||has_more_than_20k}
+        `)
+
+    console.log(`This is not true = ${!true}`)
+    console.log(`This is not false = ${!false}`)
+
+    let x=23>12&& 10>2 && mercy_age>18&&mercy_balance>20000
+    console.log(x)
