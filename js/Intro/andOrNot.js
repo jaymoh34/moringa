@@ -1,6 +1,7 @@
 /*
  comparison operators
- comparison operators evaluate to only true or false 
+ comparison operators evaluate to only true or false
+ for &&, 0r  
 */
 
 /*
