@@ -4,9 +4,8 @@ let start with if
 *you can use it on its own
 */
 
-let age=prompt("Enter your age:")
+let age=Number(prompt("Enter your age:"))
 alert(`You entered ${age}`)
-
 
 if(age>10){
 alert('You are a baby')

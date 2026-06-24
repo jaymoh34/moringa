@@ -1,17 +1,15 @@
 /*
+Conditional statement allow you to control the flow of your code 
+by making decision based on conditions.
+
 Condition operators
-if, if else, else
-
-
-
-
+if, else if and else
 
 Syntax:
 if you want to use if
 if(<condition goes>)
 Golden Rule -> if th condition is truthy th
 then it will execute code in /{}/
-
 */ 
 
 //Scenario 1
