@@ -23,3 +23,5 @@ const totalDeductions=paye+nhif+sha
 console.log("Total deduction are",totalDeductions)
 const netsalary=salaryGross-totalDeductions
 console.log("Your net salary is",netsalary)
+
+
