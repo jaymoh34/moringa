@@ -4,7 +4,7 @@
 */
 
 //Scenario 1:leave it as it is and look at the results.
-function sayMyName() {
+function sayMyName1() {
     let first_name = "Samsom";//statement 1
     console.log(`First Name ${first_name}`);//statement 2
     let second_name = "Johnna";//statement 3
@@ -13,7 +13,7 @@ function sayMyName() {
     console.log(`Names are ${full_name}`);//statement 6
 }
 
-let sayMyNameValue = sayMyName();
+let sayMyNameValue = sayMyName1();
 console.log(`Function returned ${sayMyNameValue}`);
 
 //Scenario 2:put return inside the function after second statement
