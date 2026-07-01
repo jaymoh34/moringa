@@ -5,13 +5,53 @@
     ->a variable can reference a function
 */
 
-function circleArea(r){
-    return 3.142 * r * r;
+//function circleArea(r){
+   // return 3.142 * r * r;}
+
+
+
+
+
+/*
+1.create a function of your choice use named function
+2.assign that function a variable
+3.directly create equate your variable to the
+function defination
+4.removw the original function
+5.try calling the variable and try calling the original
+function.
+6.remove the name of the function, since it useless
+7.Anonymous function<function without a name>
+*/
+
+//step1
+function multiply (a,b){
+    return a * b;
 }
+console.log(multiply);
+console.log(multiply(4,5));
 
-let age = 23;
-let samsAge = age;
-let ac = circleArea
+//step2
+let multi = multiply;
+console.log(multi);
+console.log(multi(4,5));
 
-console.log(ac);
+//step3
+let multiFunc = function multiply(a,b){
+    return a * b
+}
+console.log(multiFunc);
+
+//step4
+multiply = undefined;
+console.log(multiply);
+
+//step5
+console.log(multi);
+console.log(multiply);
+
+
+
+
+
 
