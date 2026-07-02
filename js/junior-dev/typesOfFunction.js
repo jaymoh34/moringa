@@ -5,12 +5,8 @@
     ->a variable can reference a function
 */
 
-//function circleArea(r){
-   // return 3.142 * r * r;}
-
-
-
-
+function circleArea(r){
+    return 3.142 * r * r;}
 
 /*
 1.create a function of your choice use named function
@@ -41,6 +37,8 @@ let multiFunc = function multiply(a,b){
     return a * b
 }
 console.log(multiFunc);
+console.log(multiFunc(4,5));
+
 
 //step4
 multiply = undefined;
@@ -48,7 +46,21 @@ console.log(multiply);
 
 //step5
 console.log(multi);
-console.log(multiply);
+console.log(multi(4,5));
+
+//Arrow function
+/*
+1.create an anonymous function
+2.remove th function keyword
+3.between () <> {}put an arrow
+4.good practice to have the variable as a const
+*/
+
+//step1
+let add = function(a, b) {
+    return a + b;
+};
+
 
 
 
