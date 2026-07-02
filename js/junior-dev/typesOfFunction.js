@@ -48,18 +48,22 @@ console.log(multiply);
 console.log(multi);
 console.log(multi(4,5));
 
-//Arrow function
-/*
-1.create an anonymous function
-2.remove th function keyword
-3.between () <> {}put an arrow
-4.good practice to have the variable as a const
-*/
-
-//step1
-let add = function(a, b) {
+// Arrow function
+    //create anonymous function
+const add = function(a, b){
     return a + b;
-};
+}
+
+    //remove function
+const add = (a, b){
+    return a + b;
+}
+
+    //add arrow btw () and {}
+    const add = (a, b) => {
+        return a + b
+    }
+
 
 
 

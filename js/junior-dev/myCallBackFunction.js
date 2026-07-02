@@ -26,6 +26,15 @@ call the shape function and pass the required params.
 example for areaCircle
 -shape(areaCircle,"Circle",10)->for areCircle.test make observation
 -shape(areaRectangle,"Rectangle",10,5)->for areCircle.test make observation
+3.inside your shape function.create a result variable
+equate it to the function call of @param1 and pass @param3,@param4,@param5
+example
+result=@param1(param3,param4,param5)
+4.Console.Log the shape name and the result
+console.Log(for shape ${@param2} area is ${result})
+for each shape call it like step 2 and see the result.
+-shape(areaCircle,"Circle",10)->for areaCircle.test make observation
+-shape(areaRectangle,"Rectangle",10,5)->for areaCircle.test make observation
 */
 
 const areaCircle = (radius) => 3.142 * radius * radius;
@@ -59,5 +68,6 @@ function shape(shapeFunction, shapeName, side1, side2, side3){
     console.log('side3 ${side3} its a ${typeof side3}');
 }
 //for area circle
+shape(areaCircle,"circle", 20)
 
 

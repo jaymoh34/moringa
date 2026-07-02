@@ -11,14 +11,15 @@ Task:
 -test your function by calling it
 */
 
+//Named function
 function showCurrentTime() {
-    const currentTime = new Date();
+const currentTime = new Date();
     console.log(`current Time is ${currentTime}`);
     alert(`current Time is ${currentTime}`);
-}
+  }
 showCurrentTime()
 
-setInterval(showCurrentTime,8000)
+//setInterval(showCurrentTime,8000)
 
 /*
 1Named function
@@ -29,14 +30,29 @@ setInterval(showCurrentTime,8000)
 
 //Anonymous function
 setInterval(function () {
-  const currentTime = new Date();
-    console.log(`current Time is ${currentTime}`);
-    alert(`current Time is ${currentTime}`)},8000);
+ const currentTime = new Date();
+   console.log(`current Time is ${currentTime}`);
+  alert(`current Time is ${currentTime}`)},8000);
 
 
 //Arrow function
   setInterval(() =>{
-    const currentTime = new Date();
+   const currentTime = new Date();
     console.log(`current Time is ${currentTime}`);
     alert(`current Time is ${currentTime}`)
   },8000)
+
+  //How to stop set interval
+   let k =0
+   let invT= setInterval(() =>{
+    if (k >=5){
+      clearInterval(invT);
+      return;
+    }
+    const currentTime = new Date();
+    console.log(`current Time is ${currentTime}`);
+    k = k + 1;
+    console.log("k is", k)
+    alert(`current Time is ${currentTime}`)
+  },8000)
+ clearInterval(invT)// stop the interval immediately
