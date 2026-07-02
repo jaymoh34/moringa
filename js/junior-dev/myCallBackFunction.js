@@ -39,7 +39,7 @@ for each shape call it like step 2 and see the result.
 
 const areaCircle = (radius) => 3.142 * radius * radius;
 const areaRectangle = (length, width) => length * width;
-const areaTriangle = (base, height) => (base * height) / 2;
+const areaTriangle = (base, height) => 0.5 * base * height;
 
 
 
@@ -66,8 +66,19 @@ function shape(shapeFunction, shapeName, side1, side2, side3){
     console.log('side1 ${side1} its a ${typeof side1}');
     console.log('side2 ${side2} its a ${typeof side2}');
     console.log('side3 ${side3} its a ${typeof side3}');
-}
-//for area circle
-shape(areaCircle,"circle", 20)
+    
+    //create result variable
+    let result = shapeFunction(side1, side2, side3)
 
+    console.log(`For shape ${shapeName} area is ${result}`)
+}
+
+//for area circle
+shape(areaCircle,"circle", 20);
+
+//for area rectangle
+shape(areaRectangle,"Rectangle", 10, 5 );
+
+//fot area triangle
+shape(areaTriangle, "Triangle", 8, 6);
 
