@@ -65,23 +65,26 @@ Create a function @function2 (give it any name).
     1*1=
 */
 
-
 function promptStudent() {
     let num1 = null;
     let num2 = null;
+    
     while (true) {
         num1 = prompt("Enter the first number");
         if (isNaN(num1)) {
-            continue; //restart the Loop
+            alert("Invalid! Enter a number.");  
+            continue;
         }
         num2 = prompt("Enter the second number");
         if (isNaN(num2)) {
-            continue; //restart the Loop from beginning
+            alert("Invalid! Enter a number.");  
+            continue;
         }
         num1 = parseInt(num1);
         num2 = parseInt(num2);
         if (num1 <= 0 || num2 <= 0) {
-            continue; //
+            alert("Numbers must be greater than 0!");  
+            continue;
         }
         break;
     }
@@ -91,15 +94,18 @@ function promptStudent() {
 
 function mathTable(num1, num2) {
     if (!num1 || num1 < 0 || num2 < 0) {
+        alert("Numbers must be greater than 0!");  
         console.error("Ensure number1 or number2 are numbers greater than 0");
         return;
     }
 
-    for (let i = num1; num1 >= 0; i--) {
-        for (let j = num2; num2 >= 0; j--) {
-       console.log(`outerLoop=${i} innerLoop=${j}`);
-        console.log(`$i*$j=$i * $j`);
+    for (let i = num1; i >= 1; i--) {
+        for (let j = num2; j >= 1; j--) {
+            console.log(`${i} * ${j} = ${i * j}`);
         }
+        if (i > 1) console.log("---");
     }
+    
 }
+
 promptStudent();
