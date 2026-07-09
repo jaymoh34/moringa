@@ -68,13 +68,7 @@ const car = {
      "fun fact": "Features an active rear spoiler that automatically extends at 120km/hr.",
     is_it_a_classic: false, 
 };
-    console.log("name", car.name);
-    console.log("model", car.model);
-    console.log("top_speed", car.top_speed);
-    console.log("color", car.color)
-    console.log("fun fact", car["fun fact"]);
-    console.log("engine", car.engine_information);
-    console.log("manufacture", car.manufacture);
-    console.log("classic", car.is_it_a_classic)
 
     car.alert_info();
+
+    
