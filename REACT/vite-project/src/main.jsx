@@ -6,10 +6,13 @@ path -> "./"
 import  <AnyName:Default Export> from "patch"
 import js or jsx files .the extension is optional
 */
-import Navigation from './AmazonPage/Navigation';
+
+import Props from './Props';
+
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Navigation/>
+    <Props />
   </StrictMode>
 );

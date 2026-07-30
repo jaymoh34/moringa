@@ -11,8 +11,9 @@ import logo from "./assets/logo.png";
 
 function Navigation(){
     return (
-        <div>
-            <h2>Navigation section</h2>
+        <div className="nav">
+        <img src={logo} width="60px" />
+            <input placeholder="Search" />
         </div>
     )
 }
