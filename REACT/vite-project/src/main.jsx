@@ -7,12 +7,12 @@ import  <AnyName:Default Export> from "patch"
 import js or jsx files .the extension is optional
 */
 
-import Mapping from './Mapping';
+import Form from './StateAndEvents/ClickMe';
 
 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Mapping />
+    <Form />
   </StrictMode>
 );
