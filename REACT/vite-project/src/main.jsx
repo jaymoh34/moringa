@@ -7,12 +7,10 @@ import  <AnyName:Default Export> from "patch"
 import js or jsx files .the extension is optional
 */
 
-import Form from './StateAndEvents/ClickMe';
-
-
+import ColorsCircles from './StateAndEvents/ColorsAndCircles';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Form />
+    <ColorsCircles />
   </StrictMode>
 );
