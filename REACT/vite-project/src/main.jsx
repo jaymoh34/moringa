@@ -7,10 +7,11 @@ import  <AnyName:Default Export> from "patch"
 import js or jsx files .the extension is optional
 */
 
-import ColorsCircles from './StateAndEvents/ColorsAndCircles';
+
+import GithubProject from './GithubProject';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ColorsCircles />
+    <GithubProject />
   </StrictMode>
 );
