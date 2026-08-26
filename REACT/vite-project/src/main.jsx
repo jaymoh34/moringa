@@ -8,10 +8,10 @@ import js or jsx files .the extension is optional
 */
 
 
-import GithubProject from './GithubProject';
+import Routing from './Routing';
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <GithubProject />
+    <Routing />
   </StrictMode>
 );
