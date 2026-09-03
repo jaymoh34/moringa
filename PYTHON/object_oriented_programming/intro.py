@@ -4,9 +4,11 @@
 # 1. Encapsulation
 #    - Keeping data and methods (functions) inside a class while restricting 
 #      direct access to internal data.
+#    - () -> _init_, method, what is a property
 
 # 2. Abstraction
 #    - Hiding unnecessary complexity or implementation details.
+
 
 # 3. Inheritance
 #    - One class to reuse or extend properties and methods of another class.
