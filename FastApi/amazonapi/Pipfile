@@ -10,6 +10,9 @@ pydantic = "*"
 fastapi = {extras = ["standard"], version = "*"}
 bcrypt = "*"
 passlib = {extras = ["bcrypt"], version = "*"}
+cloudinary = "*"
+python-dotenv = "*"
+python-multipart = "*"
 
 [dev-packages]
 
